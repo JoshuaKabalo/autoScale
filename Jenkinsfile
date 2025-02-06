@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/JoshuaKabalo/autoScale.git' 
+                git branch: 'main', url: 'https://github.com/JoshuaKabalo/autoScale' 
             }
         }
         stage('Initialize Terraform') {
